@@ -1,0 +1,23 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+authors = ["dom"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name="hello"
+path="./src/1-01_hello.rs"
+
+[[bin]]
+name="input"
+path="./src/1-02_input.rs"
+
+[[bin]]
+name="alice-bob"
+path="./src/1-03_alice-bob.rs"
+
+[[bin]]
+name="n-sum"
+path="./src/1-04_n-sum.rs"
